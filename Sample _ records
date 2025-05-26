@@ -1,0 +1,5 @@
+records = [
+    {"id": 1, "category": "Sales"},
+    {"id": 2, "category": "HR"},
+    {"id": 3, "category": "IT"}
+]
