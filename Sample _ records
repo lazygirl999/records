@@ -4,7 +4,8 @@ records = [
     {"id": 3, "category": "IT"}
 ]
 filter_category = "IT"
-
+//this line of code been added by collaborater 
+print ("/n---processing records---")
 for record in records:
     match record["category"]:
         case "Sales":
