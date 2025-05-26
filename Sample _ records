@@ -3,3 +3,17 @@ records = [
     {"id": 2, "category": "HR"},
     {"id": 3, "category": "IT"}
 ]
+filter_category = "IT"
+//this line of code been added by collaborater 
+print ("/n---processing records---")
+for record in records:
+    match record["category"]:
+        case "Sales":
+            print("Sales record found")
+        case "HR":
+            print("HR record found")
+        case "IT":
+            print("IT record found")
+        case _:
+            print("Other category")
+print(f"\nTotal matching records for category '{filter_category}': {match_count}")
